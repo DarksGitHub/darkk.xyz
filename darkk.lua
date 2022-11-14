@@ -24,6 +24,16 @@ btns:Button(
     end
 )
 
+btns:Seperator()
+
+btns:Button(
+    "No Afk Kick",
+    function()
+        DiscordLib:Notification("Notification", "No Afk Kicking Anymore!", "Okay!")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DarksGitHub/RBXTriggerBot/main/Main.lua"))()
+    end
+)
+
 local tgls = serv:Channel("Arsenal")
 
 tgls:Toggle(
