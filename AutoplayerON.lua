@@ -1,6 +1,6 @@
 shared.Settings - {
     Autoplay = true
-    ReleaseDelay = 2
+    ReleaseDelay = 1
         
     Presentages - {
         ["Sick"] = 100
